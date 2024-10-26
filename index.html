@@ -45,12 +45,20 @@
 
         /* Hamburger button styling */
         .navbar-toggler {
-            border: none;
+            border: none; /* Hilangkan border pada tombol */
+            padding: 0.5rem; /* Tambahkan padding */
+            background-color: transparent; /* Latar belakang transparan */
         }
 
         .navbar-toggler-icon {
-            background-image: url('data:image/svg+xml;base64,...'); /* Custom icon if needed */
+            background-color: white; /* Warna ikon hamburger */
         }
+
+        /* Tombol hamburger saat hover */
+        .navbar-toggler:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Tambahkan efek hover */
+        }
+
 
         /* Add smooth transition for scroll effect */
         html {
@@ -208,34 +216,34 @@
   </head>
   <body>
     
-        <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 bg-white shadow-sm">
-        <div class="container">
-            <a class="navbar-brand fw-bold fs-4" href="#">
-                <span class="text-primary">Luthfi</span> <span class="text-dark">Nurfaqih</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link px-3 text-dark" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-3 text-dark" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-3 text-dark" href="#experience">Pengalaman</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-3 text-dark" href="#footer">Social Media</a>
-                    </li>
-                </ul>
-            </div>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 bg-white shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="#">
+            <span class="text-primary">Luthfi</span> <span class="text-dark">Nurfaqih</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link px-3 text-dark" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3 text-dark" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3 text-dark" href="#experience">Pengalaman</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3 text-dark" href="#footer">Social Media</a>
+                </li>
+            </ul>
         </div>
-    </nav>
-    <!-- Navbar End -->
+    </div>
+</nav>
+<!-- Navbar End -->
 
     <!-- Hero Banner-->
     <section id="hero" class="p-5 text-center text-sm-start bg-light" style="margin-top: 70px;">
